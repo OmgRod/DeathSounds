@@ -8,3 +8,27 @@
     /uploadSFX = upload sound - POST
     /uploadPack = upload pack - POST
 */
+
+#include <Geode/Geode.hpp>
+
+using namespace geode::prelude;
+
+namespace deathsounds {
+    class DSRequest {
+    public:
+        static DSRequest* get() {
+            static DSRequest instance;
+            return &instance;
+        }
+
+        void getSoundEffects() {
+            
+        }
+
+    private:
+        DSRequest() = default;
+
+        DSRequest(const DSRequest&) = delete;
+        DSRequest& operator=(const DSRequest&) = delete;
+    };
+};

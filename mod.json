@@ -10,5 +10,10 @@
 	"name": "Death Sounds",
 	"version": "v1.0.0",
 	"developers": ["OmgRod", "RGC Exists"],
-	"description": "Custom death sounds you can install!"
+	"description": "Custom death sounds you can install!",
+	"resources": {
+		"sprites": [
+			"res/*.png"
+		]
+	}
 }
