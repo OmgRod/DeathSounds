@@ -15,5 +15,13 @@
 		"sprites": [
 			"res/*.png"
 		]
+	},
+	"settings": {
+		"server-url": {
+			"name": "Server URL",
+			"type": "string",
+			"default": "http://localhost:3000",
+			"description": "Server URL for Death SFX index"
+		}
 	}
 }
